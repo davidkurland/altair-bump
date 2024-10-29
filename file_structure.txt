@@ -1,0 +1,26 @@
+altair-bump/
+├── .github/
+│   └── workflows/
+│       └── python-package.yml
+├── docs/
+│   ├── _static/
+│   ├── examples/
+│   │   └── basic_examples.py
+│   ├── conf.py
+│   ├── index.rst
+│   └── requirements.txt
+├── altair_bump/
+│   ├── __init__.py
+│   ├── bump.py        # Main bump chart functionality
+│   ├── sigmoid.py     # Sigmoid curve functionality  
+│   └── utils.py       # Helper functions
+├── tests/
+│   ├── __init__.py
+│   ├── test_bump.py
+│   └── test_sigmoid.py
+├── .gitignore
+├── LICENSE
+├── MANIFEST.in
+├── README.md
+├── pyproject.toml
+└── setup.py 
